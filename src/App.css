@@ -1,0 +1,15 @@
+.app-header{
+    text-align: center;
+}
+.card:hover{
+    border: 1px solid black;
+}
+.selected-card{
+    background-color: black;
+    color: white;
+}
+.cards{
+    border: 1px solid black;
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+}
